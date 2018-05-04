@@ -19,8 +19,7 @@ export class AddItemPage {
       public navCtrl: NavController,
       public navParams: NavParams,
       public viewController: ViewController
-  ) {
-  }
+  ) {}
   title: string;
   desc: string;
   saveItem() {
